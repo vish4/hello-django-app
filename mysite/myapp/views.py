@@ -17,5 +17,8 @@ from django.http import HttpResponse
 #		return HttpResponse("<body bgcolor='#FF0000'> <p>Hello, world</p> </body>") 
 #	else:
 #		return HttpResponse("<body bgcolor='#00ff40'> <p>Hello, world</p> </body>") 
+
+# Changing color from Red to Green => 00ff40
+
 def hello(request):
-		return HttpResponse("<body bgcolor='#FF0000'> <p>Hello, world</p> </body>")
+		return HttpResponse("<body bgcolor='#00ff40'> <p>Hello, world</p> </body>")
