@@ -18,4 +18,4 @@ from django.http import HttpResponse
 #	else:
 #		return HttpResponse("<body bgcolor='#00ff40'> <p>Hello, world</p> </body>") 
 def hello(request):
-		return HttpResponse("<p>Hello, world</p>") 
+		return HttpResponse("<body bgcolor='#FF0000'> <p>Hello, world</p> </body>")
